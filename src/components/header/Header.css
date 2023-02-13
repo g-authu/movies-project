@@ -1,0 +1,60 @@
+.header{
+    margin: 0 2.5rem;
+    padding: .5rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerLeft, .headerRight {
+    display: flex;
+    align-items: center;
+
+}
+
+a > span{
+    margin: 0 30px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: white;
+}
+
+a > span:hover{
+    color: red;
+}
+
+.header_icon{
+    size: 100px;
+    height: 80px;
+    width: 110px;
+    cursor: pointer;
+}
+
+.user_avatar{
+    font-size: 2rem;
+}
+
+.color{
+    color: rgb(221, 255, 0);
+    font-size: 30px;
+    display: inline-block;
+    margin: 0 0.5rem;
+
+  animation: lightSpeedInRight; /* referring directly to the animation's @keyframe declaration */
+  animation-duration:10s; /* don't forget to set a duration! */
+    
+
+}
+
+.btn{
+    width: 300px;
+    padding: -50px;
+    background-color: black;
+}
+
+.btn:hover{
+    transform: scale(0.9);
+    z-index: 1000;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    color: white;
+}
